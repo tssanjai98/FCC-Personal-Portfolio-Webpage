@@ -32,8 +32,8 @@ body {
 }
 
 .profile-img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: var(--secondary-color);
   overflow: hidden;
@@ -73,12 +73,11 @@ body {
 
 .m-nav {
   display: block;
-  height: 40vh;
   background-color: var(--card-color);
   position: fixed;
-  padding: 20px;
+  padding: 20px 20px 40px;
   width: 100%;
-  top: 70px;
+  top: 60px;
   left: 0;
   text-align: center;
   transition: all 0.4s ease-in-out;
@@ -308,6 +307,10 @@ body {
   }
 
   .hamburger {
+    display: none;
+  }
+
+  .m-nav {
     display: none;
   }
 
